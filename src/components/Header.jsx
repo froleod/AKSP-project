@@ -15,6 +15,9 @@ const Header = () => {
                     <li style={styles.navItem}>
                         <Link to="/about" style={styles.link}>About Us</Link>
                     </li>
+                    <li style={styles.navItem}>
+                        <Link to="/agreement" style={{ color: 'white', textDecoration: 'none' }}>Agreement</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
